@@ -1,0 +1,22 @@
+.boxx, .boxx2{
+    background-color: rgb(37, 35, 35);
+    color: white;
+    border-radius: 7px;
+    width: 50vw;
+    padding: 5px 5px 5px 10px;
+}
+body{
+    background-color: #4e4e4e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.h1{
+    font-size: 1.1rem;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px 10px;
+    
+}

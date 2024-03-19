@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>1. Default</h2>
+    <div class="boxx">
+
+    <h1 class="h1">HTML</h1>
+    &lt;h1&gt; Ovo je display: block.&lt;h1&gt
+
+   <p> &lt;ul&gt; </p>
+   <p> &lt;li&gt; block  &lt;/li&gt; </p>
+   <p> &lt;li&gt; flex  &lt;/li&gt; </p>
+   <p> &lt;li&gt; grid  &lt;/li&gt; </p>
+   <p> &lt;/ul&gt; </p>
+
+<p> &lt;p&gt; Kraj  &lt;/p&gt; </p>
+</div>
+
+
+    <h2>2. Flexbox</h2>
+    <div class="boxx2">
+
+        <h1 class="h1">HTML</h1>
+        &lt;h1&gt; Ovo je display: flex&lt;h1&gt
+    
+        <p>&lt;div class="box" &gt;</p>
+        <p>&lt;div class="box1" &gt;Jedan&lt;/div&gt;</p>
+        <p>&lt;div class="box2" &gt;Dva&lt;/div&gt;</p>
+        <p>&lt;div class="box3" &gt;Tri&lt;/div&gt;</p>
+        <p>&lt;/div&gt;</p>
+    </div>
+
+
+    <h2>Flexbox CSS</h2>
+
+
+
+    <div class="boxx">
+        <h1 class="h1">CSS</h1>
+
+    <p>  .box { <br>
+            display: flex; <br>
+            /*justify-content: space-around;*/ <br>
+            /*flex-direction: column;*/ <br>
+            /*align-items:center;*/ <br>
+          } </p>
+    <p>.box > div { <br>
+            background-color: lightblue; <br>
+            border: 1px solid blue; <br>
+            }</p>
+    <p>.box > div { <br>
+            flex: 1; <br>
+          }</p>
+        </div>
+
+
+          <h2>3. Grid</h2>
+    <div class="boxx2">
+
+        <h1 class="h1">HTML</h1>
+        &lt;h1&gt; Ovo je display: grid&lt;h1&gt
+    
+        <p>&lt;div class="box" &gt;</p>
+        <p>&lt;div class="box1" &gt;Jedan&lt;/div&gt;</p>
+        <p>&lt;div class="box2" &gt;Dva&lt;/div&gt;</p>
+        <p>&lt;div class="box3" &gt;Tri&lt;/div&gt;</p>
+        <p>&lt;div class="box4" &gt;Cetiri&lt;/div&gt;</p>
+        <p>&lt;div class="box5" &gt;Pet&lt;/div&gt;</p>
+        <p>&lt;div class="box6" &gt;Sest&lt;/div&gt;</p>
+        <p>&lt;/div&gt;</p>
+    </div>
+
+    <h2>Grid CSS</h2>
+
+
+
+    <div class="boxx">
+        <h1 class="h1">CSS</h1>
+
+    <p>  
+        .box { <br>
+            display: grid; <br>
+            grid-template-columns: 1fr 1fr 1fr; <br>
+            grid-template-rows: 100px 100px; <br>
+            gap: 10px; <br>
+            } <br> <br>
+            .box>div{ <br>
+            border: 1px solid blue; <br>
+            } <br> <br>
+
+        /*Prvi komentar <br>
+        .box3{ <br>
+        grid-column:2/3; <br>
+        grid-row:1/2 <br>
+        } <br>
+        */ <br> <br>
+        
+        /*Drugi komentar <br>
+        .box1 { <br>
+          grid-column: 2 / 4; <br>
+          grid-row: 1; <br>
+        } <br> <br>
+        
+        .box2 { <br>
+          grid-column: 1; <br>
+          grid-row: 1 / 3; <br>
+        } <br> <br>
+        
+        .box3 { <br>
+          grid-row: 2; <br>
+          grid-column: 3; <br>
+        } <br>
+        */
+
+    </p>
+   
+        </div>
+
+        <h2>4. Float</h2>
+        <div class="boxx">
+    
+            <h1 class="h1">HTML</h1>
+
+           <p> &lt;h1&gt;Float primjer&lt;/h1&gt; </p>
+
+&lt;div class="box"&lt;Float&lt;/div&gt;
+
+<p>
+  &lt;p&gt;
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+  dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus
+  ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus
+  laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum,
+  tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus
+  neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat
+  volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros
+  pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec
+  lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.
+  &lt;/p&gt; <br> <br>
+        &lt;/div&gt;
+</div>
+
+<h2>Float CSS</h2>
+
+
+
+<div class="boxx">
+    <h1 class="h1">CSS</h1>
+
+<p>  
+  .box { <br>
+    float: left; <br>
+    width: 150px; <br>
+    height: 150px; <br>
+    margin-right: 30px; <br>
+    background-color:lightblue; <br>
+  }
+  
+</p>
+    </div>
+
+    <h2>5. Position</h2>
+    <div class="boxx2">
+      <h1 class="h1">HTML</h1>
+     <p> &lt;h1&gt;Pozicija&lt;/h1&gt; </p> 
+
+   <p>   &lt;p&gt;Block element.&lt;/p&gt; </p>
+    <p>  &lt;p class="pozicija"&lt;Block element.&lt;/p&gt;  </p>
+    <p>  &lt;p&gt;Block element.&lt;/p&gt; </p>
+      
+        
+    </div>
+
+    <h2>Position CSS</h2>
+
+
+
+<div class="boxx">
+    <h1 class="h1">CSS</h1>
+
+<p>  
+  body { <br>
+    width: 500px; <br>
+    margin: 0 auto; <br>
+  } <br> <br>
+  
+  p { <br>
+    background-color: rgb(207 232 220); <br>
+    border: 2px solid rgb(79 185 227); <br>
+    padding: 10px;  <br>
+    margin: 10px; <br>
+    border-radius: 5px; <br>
+  } <br> <br>
+  
+  .pozicija { <br>
+    background: rgb(255 84 104 / 30%); <br>
+    border: 2px solid rgb(255 84 104); <br>
+  } <br>
+  
+</p>
+    </div>
+
+    <h2>5.1 Relative position</h2>
+    <div class="boxx2">
+      <h1 class="h1">CSS</h1>
+     <p>
+      .pozicija { <br>
+        position: relative; <br>
+        top: 30px; <br>
+        left: 30px; <br>
+      } <br>
+      
+     </p>
+        
+    </div>
+    <h2>5.2 Absolute position</h2>
+    <div class="boxx2">
+      <h1 class="h1">CSS</h1>
+     <p>
+      .pozicija { <br>
+        position: absolute; <br>
+        top: 30px; <br>
+        left: 30px; <br>
+      } <br>
+      
+     </p>
+        
+    </div>
+
+    <h2>5.2 Fixed position</h2>
+    <div class="boxx2">
+      <h1 class="h1">HTML</h1>
+      &lt;div class="pozicija"&gt;Fixed&lt;/div&gt;
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+     <p> &lt;p&gt;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus corporis odio, dignissimos molestias nihil aut quaerat ipsa sapiente obcaecati voluptatibus doloribus sunt, ipsam inventore harum architecto magnam eligendi vel repellat.&lt;/p&gt;</p>
+
+    </div>
+
+    <h2>5.3 Fixed position</h2>
+    <div class="boxx2">
+      <h1 class="h1">CSS</h1>
+     <p>
+      .pozicija { <br>
+        position: fixed; <br>
+        top: 30px; <br>
+        left: 30px; <br>
+      } <br>
+      
+     </p>
+        
+    </div>
+    <h2>5.4 Sticky position</h2>
+    <div class="boxx2">
+      <h1 class="h1">CSS</h1>
+     <p>
+      .pozicija { <br>
+        position: sticky; <br>
+        top: 30px; <br>
+        left: 30px; <br>
+      } <br>
+      
+     </p>
+        
+    </div>
+    <h2>6. Media queries</h2>
+    <div class="boxx2">
+      <h1 class="h1">CSS</h1>
+     <p>
+      @media screen and (max-width: 600px) { <br>
+        body { <br>
+          color: blue; <br>
+        }} <br>
+      
+      
+     </p>
+        
+    </div>
+
+</body>
+</html>
